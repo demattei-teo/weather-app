@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <main>
+    <div class="container-form">
+      <form id="search-form" class="search-form">
+       
+          <input type="text" autocomplete="off" placeholder="enter your city..." class="search" id="searchbox" />
+      
+      </form>
+    </div>
+  <section class="container-card"> 
+    <div class="weather-card" id="card">
+        <div class="container-cityData">
+          <div class="city" id="city">Buenos Aires,AR</div>   <!-- catch city data -->
+          
+        </div>      
+        <div class="temperature">
+           
+           <div class="temp" id="temp"><span>14</span>°C</div>      <!-- catch temp data -->
+        </div>
+        <div class="weather" id="weather">Sol</div>   <!-- catch weather-icon data -->
+        <div class="range" id="range">12°C / 18°C</div> <!-- catch range data -->
+    </div>
+  </section>  
+  </main>
+
+
+
+
+
+ <script src="codigo.js"></script> 
+</body>
+</html>
